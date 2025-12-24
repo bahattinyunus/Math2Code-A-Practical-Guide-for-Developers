@@ -1,0 +1,28 @@
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+        </linearGradient>
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="1"/>
+        </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#grad1)" />
+    <rect width="100%" height="100%" fill="url(#grid)" opacity="0.3" />
+    <text x="314" y="119" fill="#64748b" font-family="monospace" font-size="20" opacity="0.27831637871733717">∞</text><text x="486" y="273" fill="#64748b" font-family="monospace" font-size="24" opacity="0.21213263100776064">∂</text><text x="264" y="72" fill="#64748b" font-family="monospace" font-size="24" opacity="0.03242115348108214">∑</text><text x="685" y="197" fill="#64748b" font-family="monospace" font-size="19" opacity="0.07082578369797583">θ</text><text x="721" y="259" fill="#64748b" font-family="monospace" font-size="22" opacity="0.006022845799195431">θ</text><text x="53" y="250" fill="#64748b" font-family="monospace" font-size="15" opacity="0.267634460939628">∂</text><text x="468" y="198" fill="#64748b" font-family="monospace" font-size="12" opacity="0.2620603120896102">Ω</text><text x="347" y="248" fill="#64748b" font-family="monospace" font-size="11" opacity="0.24859112787501664">∂</text><text x="686" y="281" fill="#64748b" font-family="monospace" font-size="23" opacity="0.26027677841994995">{}</text><text x="37" y="77" fill="#64748b" font-family="monospace" font-size="11" opacity="0.29262457006993176">∑</text><text x="590" y="164" fill="#64748b" font-family="monospace" font-size="30" opacity="0.2144015936082483">√</text><text x="133" y="197" fill="#64748b" font-family="monospace" font-size="12" opacity="0.020057041162980727">π</text><text x="567" y="289" fill="#64748b" font-family="monospace" font-size="11" opacity="0.005569278064223559">∂</text><text x="184" y="39" fill="#64748b" font-family="monospace" font-size="23" opacity="0.20521963673697355">∑</text><text x="559" y="104" fill="#64748b" font-family="monospace" font-size="11" opacity="0.2495208186425925">{}</text><text x="175" y="90" fill="#64748b" font-family="monospace" font-size="10" opacity="0.0629968932080986">π</text><text x="303" y="170" fill="#64748b" font-family="monospace" font-size="14" opacity="0.29643557572888846"></></text><text x="535" y="100" fill="#64748b" font-family="monospace" font-size="20" opacity="0.25707309239029497">∫</text><text x="419" y="271" fill="#64748b" font-family="monospace" font-size="14" opacity="0.2581422028125655">∞</text><text x="297" y="159" fill="#64748b" font-family="monospace" font-size="13" opacity="0.12243072328214018">π</text><line x1="330" y1="73" x2="162" y2="196" stroke="#3b82f6" stroke-width="1" opacity="0.3" /><circle cx="330" cy="73" r="3" fill="#3b82f6" opacity="0.5" /><line x1="162" y1="196" x2="105" y2="159" stroke="#3b82f6" stroke-width="1" opacity="0.3" /><circle cx="162" cy="196" r="3" fill="#3b82f6" opacity="0.5" /><line x1="105" y1="159" x2="387" y2="114" stroke="#3b82f6" stroke-width="1" opacity="0.3" /><circle cx="105" cy="159" r="3" fill="#3b82f6" opacity="0.5" /><line x1="387" y1="114" x2="219" y2="108" stroke="#3b82f6" stroke-width="1" opacity="0.3" /><circle cx="387" cy="114" r="3" fill="#3b82f6" opacity="0.5" /><line x1="219" y1="108" x2="238" y2="66" stroke="#3b82f6" stroke-width="1" opacity="0.3" /><circle cx="219" cy="108" r="3" fill="#3b82f6" opacity="0.5" /><line x1="238" y1="66" x2="573" y2="177" stroke="#3b82f6" stroke-width="1" opacity="0.3" /><circle cx="238" cy="66" r="3" fill="#3b82f6" opacity="0.5" /><line x1="573" y1="177" x2="325" y2="142" stroke="#3b82f6" stroke-width="1" opacity="0.3" /><circle cx="573" cy="177" r="3" fill="#3b82f6" opacity="0.5" /><line x1="325" y1="142" x2="470" y2="100" stroke="#3b82f6" stroke-width="1" opacity="0.3" /><circle cx="325" cy="142" r="3" fill="#3b82f6" opacity="0.5" /><line x1="470" y1="100" x2="730" y2="74" stroke="#3b82f6" stroke-width="1" opacity="0.3" /><circle cx="470" cy="100" r="3" fill="#3b82f6" opacity="0.5" />
+    <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="50" fill="#f8fafc" filter="url(#glow)">Math2Code</text>
+    <text x="50%" y="65%" dominant-baseline="middle" text-anchor="middle" font-family="Courier New, monospace" font-size="20" fill="#94a3b8" letter-spacing="4">THE PRINCIFIA OF CODE</text>
+    
+    <!-- Code brackets decorative -->
+    <text x="10%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="monospace" font-size="100" fill="#334155" opacity="0.2">{</text>
+    <text x="90%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="monospace" font-size="100" fill="#334155" opacity="0.2">}</text>
+    </svg>
+    
